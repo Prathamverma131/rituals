@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+   
+    background-image: url("ritual.jpeg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+   
+}
+
+.bgc{
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.logocon{
+    position: absolute;
+    background: rgb(245, 244, 244);
+    height: 70vh;
+    width: 70vh;
+   box-shadow: 10px 10px 10px gray , 10px 50px 10px gray;
+}
+.logo{
+    position: absolute;
+    height: 9vh;
+    width: 9vh;
+    top: 8vh;
+    left: 29vh;
+}
+
+.imlogo{
+    max-width: 100%;
+    object-fit: cover;
+    
+}
+
+.logotext{
+
+    
+    width: 28vh;
+    height: 19vh;
+    position: absolute;
+font-style: oblique;
+letter-spacing: 0.2vh;
+    left: 22vh;
+    top: 20vh;
+   
+    margin-top: 0.7vh;
+}
+
+.formsec{
+
+   width: 45vh;
+   height: 33vh;
+    position: absolute;
+    
+left: 12vh;
+    top: 34vh;
+    
+}
+
+.cf{
+
+    position: absolute;
+    top: 1vh;
+    left: 8vh;
+
+}
+
+.lf{
+
+top: 15vh;
+left: 8vh;
+width: 27vh;
+    position: absolute;
+}
+
+.sub{
+
+    top: 27vh;
+    left: 8vh;
+    width: 28vh;
+
+position: absolute;
+}
+
+select{
+    width: 100%;
+    padding: 12px 20px;
+    display: inline-block;
+    border-radius: 10px;
+    box-sizing: border-box;
+    border: none;
+}
+
+input[type=submit]{
+    width: 100%;
+    background: black;
+    color: white;
+    padding: 10px 20px;
+    letter-spacing: 0.5vh;
+
+}
+
+input[type=submit]:hover{
+    background: white;
+    color: black;
+    
+
+}
